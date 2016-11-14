@@ -1,0 +1,44 @@
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.guyleroy.assistancedogs" version="1.0.0">
+    <name>Assistance Dogs</name>
+    <description>How to get an assistance dog</description>
+    <author href="http://phonegap.com" email="support@phonegap.com">Guy LE Roy</author>
+    <content src="index.html"/>
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="android-minSdkVersion" value="14"/>
+    <icon src="icon.png"/>
+    <platform name="android">
+        <icon src="assets/images/icon.png" density="ldpi"/>
+        <icon src="assets/images/icon.png" density="mdpi"/>
+        <icon src="assets/images/icon.png" density="hdpi"/>
+        <icon src="assets/images/icon.png" density="xhdpi"/>
+        <icon src="assets/images/icon.png" density="xxhdpi"/>
+        <icon src="assets/images/icon.png" density="xxxhdpi"/>
+        <splash src="assets/images/splashlandscape.png" density="land-ldpi"/>
+        <splash src="assets/images/splashlandscape.png" density="land-mdpi"/>
+        <splash src="assets/images/splashlandscape.png" density="land-hdpi"/>
+        <splash src="assets/images/splashlandscape.png" density="land-xhdpi"/>
+        <splash src="assets/images/splashlandscape.png" density="land-xxhdpi"/>
+        <splash src="assets/images/splashlandscape.png" density="land-xxxhdpi"/>
+        <splash src="assets/images/splash750x1136.png" density="port-ldpi"/>
+        <splash src="assets/images/splash750x1136.png" density="port-mdpi"/>
+        <splash src="assets/images/splash750x1136.png" density="port-hdpi"/>
+        <splash src="assets/images/splash750x1136.png" density="port-xhdpi"/>
+        <splash src="assets/images/splash750x1136.png" density="port-xxhdpi"/>
+        <splash src="assets/images/splash750x1136.png" density="port-xxxhdpi"/>
+    </platform>
+    
+    <access origin="*"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <allow-intent href="tel:*"/>
+    <allow-intent href="sms:*"/>
+    <allow-intent href="mailto:*"/>
+    <allow-intent href="geo:*"/>
+    <platform name="android">
+        <allow-intent href="market:*"/>
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*"/>
+        <allow-intent href="itms-apps:*"/>
+    </platform>
+</widget>
